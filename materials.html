@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+<html>
+<title>MESS MANAGEMENT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+.header {
+    background-color:black;
+    padding: -2px;
+    text-align: center;
+	
+ overflow:hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+.bgimg-1 {
+    background-position: center;
+    background-size:;
+    background-image: url("bg.jpg");
+    min-height: 100%;
+	opacity:;
+     height:50;
+	padding:0px;
+}
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:;
+	position: -webkit-sticky; 
+    position: sticky;
+	
+    
+}
+
+li {
+    float: left;
+   }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+    background-color:#B22222;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+
+body {
+  margin: 0;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.w3-tangerine {
+
+    font-family: "Tangerine", serif;
+    font-size:50px;
+    text-align:right;
+	top:50px;
+	
+}
+.i{
+font-family: "Raleway", serif;
+
+}
+.k
+{
+position:relative;
+right:40%;
+width:20%;
+
+}
+.active {
+    background-color: #B22222;
+	text-color:white;
+}
+p.ridge {border-style: ridge; border-color:"#B22222"; width:65%; }
+
+table {
+    border: solid;
+    border-spacing: 10;
+    width: 100%;
+    border: 1px solid 8B0000;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #FFDEAD
+}
+
+div.gallery {
+    margin: 53px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+    padding: 10px;
+    
+    transition: transform .2s;
+    width: 250px;
+    height: 250px;
+    margin: 5 auto;
+}
+
+div.zoom
+{
+transition: transform .2s;
+    width: 250px;
+    height: 250px;
+    margin: 5 auto;
+}
+div.zoom:hover {
+    border: 1px solid #777;
+     -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+}
+div.gallery:hover {
+    border: 1px solid #777;
+     -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+}
+
+div.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+#customers {
+    font-family: "Raleway",sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid white;
+    padding: 8px;
+	color :#8B0000;
+}
+
+#customers tr:nth-child(even){background-color: #FFDEAD;}
+
+#customers tr:hover {background-color:#C48F65;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: #8B0000;
+}
+
+#t
+{
+background-image: url("8.png");
+opacity:0.9;
+width:100%;
+height:100%;
+}
+
+.button {
+postion:relative;
+  top: 1000px;
+    right: 1000px;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 400px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#demo,#d1,#d2,#d3,#d4,#d5{
+color:white;
+font-size:15px;
+background-color:#f4511e;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.zoom {
+    position:relative;
+    padding:100px 0px;
+    transition: transform .2s;
+    background-color:yellow;
+    margin: 0 auto;
+	
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.0); /* IE 9 */
+    -webkit-transform: scale(1.0); /* Safari 3-8 */
+    transform: scale(1.0); 
+}
+
+</style>
+<body>
+<div style="padding:15px 16px;margin:0"; id="home" >
+<p><font color="white">Add some text to an image in the top left corner:</font></p>
+
+<div class="w3-tangerine">
+  
+ <b><font color="#B22222"><marquee bgcolor="yellow">Khana Aisa !!! Lage Ghar Jaisa........</marquee></font></b>
+ 
+</div>
+<div class="header">
+  <ul>
+  <li><a class="active" href="file:///C:/Users/HP/Desktop/web/final.html#home"><b>CHITKARA MESS MANAGEMENT</b></a></li>
+ <b> <li style="float:right"><a href="file:///C:/Users/HP/Desktop/web/yes/index.html">CONTACT</a></li>
+  <li style="float:right"><a href="file:///C:/Users/HP/Desktop/web/feedback/formpage.html">FEEDBACK</a></li>
+  <li style="float:right"><a href="file:///C:/Users/HP/Desktop/web/materials.html">MATERIALS</a></li>
+  <li style="float:right"><a href="file:///C:/Users/HP/Desktop/web/work.html#menu">MENU</a></li>
+  
+  
+  <li style="float:right"><a href="file:///C:/Users/HP/Desktop/web/work.html">GALLERY</a></li>
+  <li style="float:right"><a href="file:///C:/Users/HP/Desktop/web/final.html#result">RESULT</a></li>
+  <li style="float:right"><a href="file:///C:/Users/HP/Desktop/web/final.html#work">WORK</a></li>
+  <li style="float:right"><a  href="file:///C:/Users/HP/Desktop/web/final.html#team">TEAM</a></li>
+  <li style="float:right"><a href="file:///C:/Users/HP/Desktop/web/final.html#about">ABOUT</a></li></b>
+  
+</ul>
+</div>
+
+
+
+<div id="t">
+
+<body>
+<hr>
+
+<center><div id="piechart"  ></div></center>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+</script>
+<script>
+
+function myFunction() {
+      
+     var t1,t2,t3,t4,t5;
+    var rice = prompt("Please enter quantity of rice : ");
+    var p1 = prompt("Please enter price per kg of rice : ");
+    if (rice == null) {
+        t1 = "User cancelled the prompt.";
+    } else {
+        t1 = "&#x2713; price of rice = "+p1*rice;
+    }
+    document.getElementById("demo").innerHTML = t1;
+    
+    
+     var flour = prompt("Please enter quantity of flour : ");
+var p2 = prompt("Please enter price per kg of flour : ");    
+    if (flour == null) {
+        t2 = "User cancelled the prompt.";
+    } else {
+        t2 = "&#x2713; price of flour = "+p2*flour;
+    }
+    
+    document.getElementById("d1").innerHTML = t2;
+    
+    
+       var veg = prompt("Please enter quantity of vegetable : ");
+    var p3 = prompt("Please enter price per kg of vegetable : ");
+    if (veg == null) {
+        t3 = "User cancelled the prompt.";
+    } else {
+        t3 = "&#x2713; price of vegetable = "+p3*veg;
+    }
+    document.getElementById("d2").innerHTML = t3;
+    
+    var dal = prompt("Please enter quantity of dal : ");
+var p4 = prompt("Please enter price per kg of dal : ");    
+    if (flour == null) {
+        t4 = "User cancelled the prompt.";
+    } else {
+        t4 = "&#x2713; price of dal = "+p4*dal;
+    }
+    document.getElementById("d3").innerHTML = t4;
+    
+
+     var di = prompt("Please enter quantity of sweet dish : ");
+var p5 = prompt("Please enter price of sweet dish : ");    
+    if (di == null) {
+        t5 = "User cancelled the prompt.";
+    } else {
+        t5 = "&#x2713; price of sweet dish = "+p5*di;
+    }
+    document.getElementById("d4").innerHTML = t5;
+    
+    var z=(p1*rice)+(flour*p2)+(p3*veg)+(p4*dal)+(p5*di);
+    var t="&#x2713; Total price of all the items = "+ z
+    document.getElementById("d5").innerHTML = t;
+ 
+}
+function openWin() {
+    window.open("file:///C:/Users/HP/Desktop/web/my.html");
+}
+</script>
+
+
+
+<script type="text/javascript">
+
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['Rice', 8],
+  ['Flour', 2],
+  ['Vegetable', 4],
+  ['Dal', 2],
+  ['Sweet Dish', 8]
+]);
+
+ 
+  var options = {'title':'Items in Mess','width':400, 'height':400};
+  
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+
+
+
+
+
+
+
+
+
+</script>
+<center>
+<div>
+<button  class="button"  value="Open Winow" onclick="openWin()"><span>Click to view Record</span></button>
+<button  class="button"  onclick="myFunction()"><span>Click Here </span></button>
+
+<p id="d"></p>
+<b><p id="demo"></p>
+<p id="d1"></p>
+<p id="d2"></p>
+<p id="d3"></p>
+<p id="d4"></p>
+<p id="d5"></p></b>
+</center>
+
+</div>
+
+</div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+</body>
+</html>

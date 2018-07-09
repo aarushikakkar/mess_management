@@ -1,0 +1,274 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<title>MESS MANAGEMENT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js">
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Feedback Form Using HTML, CSS And PHP - reusable form</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="form.css" >
+        <script src="form.js">
+  
+  </script>
+<style>
+
+.header {
+    background-color:black;
+    padding: -2px;
+    text-align: center;
+	
+ overflow:hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+.bgimg-1 {
+    background-position: center;
+    background-size:;
+    background-image: url("bg.jpg");
+    min-height: 100%;
+	opacity:;
+     height:50;
+	padding:0px;
+}
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+	position: -webkit-sticky; 
+    position: sticky;
+	
+    
+}
+
+li {
+    float: left;
+   }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:#B22222;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+
+body {
+  margin: 0;
+}
+
+.gallery img
+{
+border-radius:50%;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.w3-tangerine {
+
+    font-family: "Tangerine", serif;
+    font-size:50px;
+    text-align:right;
+	top:50px;
+	
+}
+.i{
+font-family: "Raleway", serif;
+tangarine
+animation: shake 0.5s;
+animation-iteration-count: infinite;
+background-color:#e6e600;
+}
+.k
+{
+position:relative;
+right:40%;
+width:20%;
+}
+.active {
+    background-color: #B22222;
+}
+p.ridge {border-style: ridge; border-color:"#B22222"; width:65%; }
+
+table {
+    border: solid;
+    border-spacing: 10;
+    width: 100%;
+    border: 1px solid 8B0000;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+ tr:hover {background-color:#C48F65;}
+tr:nth-child(even) {
+    background-color: #ffff99;
+}
+.gallery img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+img:hover {
+    
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
+}
+#bye:hover {
+    
+    background-color:orange;
+    
+}
+.m
+{
+background-image: url("b.jpg");
+
+}
+.f
+{
+bakground-color:white;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+    <body >
+	<div style="padding 100px">
+        <div class="container">
+            <div class="imagebg"></div>
+            <div class="row " style="margin-top: 50px">
+                <div class="col-md-6 col-md-offset-3 form-container">
+                    <h2>Feedback</h2> 
+                    <p> Please provide your feedback below: </p>
+                    <form role="form" method="POST" id="reused_form" action="insert.php">
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label>How do you rate your overall experience?</label>
+                                <p>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                        Bad 
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="average" >
+                                        Average 
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="good" >
+                                        Good 
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label for="comments"> Comments:</label>
+                                <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label for="name"> Your Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <label for="email"> Roll No:</label>
+                                <input type="email" class="form-control" id="email" name="roll" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <button type="submit" class="btn btn-lg btn-warning btn-block" >Post </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your feedback successfully!</h3> </div>
+                    <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                </div>
+            </div>
+        </div>
+		</div>
+    </body>
+</html>
